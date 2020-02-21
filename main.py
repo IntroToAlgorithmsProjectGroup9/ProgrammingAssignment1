@@ -1,3 +1,19 @@
+"""
+Student Name:  Monterius Crump
+        NetID: mc2730
+Student Name:  Mark Hodge
+        NetID: mrh598
+Student Name:  David Penfield
+        NetID: dep153
+Student Name:  Elwood Simpson
+        NetID: ets147
+Student Name:  Kaleb Thornton
+        NetID: krt237
+Programming Language: Python 3.7 with the 'matplotlib' module
+Compiler/IDE Used:    PyCharm 2019
+Program Description:  Implements and compares the running times of Insertion Sort and Merge Sort
+"""
+
 import random
 import time
 from mergesort import mergesort
