@@ -94,8 +94,8 @@ def time_merge_sort(input_sizes):
 def plot(input_size, insert_time, merge_time):
     # setup graph title and axes names
     pyplot.title("Comparison of Insertion Sort and Merge Sort Execution Times")
-    pyplot.xlabel("Input Size")
-    pyplot.ylabel("Execution Time")
+    pyplot.xlabel("Input Size (n)")
+    pyplot.ylabel("Execution Time (in seconds)")
 
     # plot the graph and display it
     pyplot.plot(input_size, insert_time, label="Insertion Sort", marker='o')
