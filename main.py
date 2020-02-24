@@ -83,15 +83,17 @@ def time_merge_sort(input_sizes):
         # setup the test array
         test_arr = random.sample(range(0, size), size)
 
+        # calculate left index and right index
+        left_index = 0
+        right_index = size - 1
+
         # print input size
         print(f"Merge Sort: input size: {size}", end=', ')
 
         # log the start time
         time_start = time.time()
 
-        # calculate left index and right index, then call merge sort
-        left_index = 0
-        right_index = size - 1
+        # call merge sort
         mergesort(test_arr, left_index, right_index)
 
         # log the stop time and find the time delta
@@ -122,7 +124,9 @@ def plot(input_size, insert_time, merge_time):
 
 def main():
     # define some input sizes to test with
-    input_sizes = [500, 1000, 5000, 10000, 25000, 50000]
+    input_sizes = [1, 10, 20, 30, 50, 75, 100, 150]
+    # input_sizes = [10, 50, 100, 500, 1000]
+    # input_sizes = [500, 1000, 5000, 10000, 25000, 50000]
 
     # time insertion sort
     insert_times = time_insertion_sort(input_sizes)
