@@ -12,6 +12,7 @@ Student Name:  Kaleb Thornton
 Programming Language: Python 3.7 with the 'matplotlib' module
 Compiler/IDE Used:    PyCharm 2019
 Program Description:  Implements and compares the running times of Insertion Sort and Merge Sort
+Sources: Cormen, T. (2009). Introduction to Algorithms. 3rd ed. Cambridge, Mass.: MIT Press.
 """
 
 import random
